@@ -68,7 +68,7 @@ header, nav, .judul  {
 .header-nav, ul, li  {
     display: flex;
     justify-content: space-between;
-    margin: 0 1rem;
+    margin: 0 .5rem;
 
 }
 
@@ -107,13 +107,26 @@ main {
     display: flex;
     position: relative;
 }
+/* Margin atas (top)
+Margin kanan (right)
+Margin bawah (bottom)
+Margin kiri (left) */
+span {
+    position: relative;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 7rem;
 
+    letter-spacing: 100px;
+    z-index: 1111;
+}
 section, aside {
     margin-top: 7rem;
 }
 .title {
     width: 40%;
     height: auto;
+
     /* background-color: aqua; */
 }
 
@@ -123,6 +136,8 @@ aside {
 }
 
 .title {
+    position: relative;
+    z-index: 111111;
     font-weight: bold;
     margin: auto;
     font-size: 3rem;
