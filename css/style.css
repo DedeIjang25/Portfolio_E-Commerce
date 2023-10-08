@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-style: italic;
+    /* font-style: italic; */
 }
 ol, ul {
 	list-style: none;
@@ -106,19 +106,21 @@ nav {
 main {
     display: flex;
     position: relative;
+    z-index: 1;
 }
 /* Margin atas (top)
 Margin kanan (right)
 Margin bawah (bottom)
 Margin kiri (left) */
 span {
-    position: relative;
+    position: absolute;
     font-family: 'EB Garamond', serif;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 7rem;
-
+    margin: -10rem auto 0 6rem;
     letter-spacing: 100px;
-    z-index: 1111;
+    z-index: -.1;
+    color: white;
 }
 section, aside {
     margin-top: 7rem;
@@ -137,7 +139,6 @@ aside {
 
 .title {
     position: relative;
-    z-index: 111111;
     font-weight: bold;
     margin: auto;
     font-size: 3rem;
@@ -149,6 +150,7 @@ aside, .mirror {
     height: auto;
     /* margin-right: 100px; */
     display: flex;
+    z-index: 2;
 }
 
 .mirror.right {
