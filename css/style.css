@@ -112,13 +112,13 @@ main {
 Margin kanan (right)
 Margin bawah (bottom)
 Margin kiri (left) */
-span {
+.slogan, span {
     position: absolute;
     font-family: 'EB Garamond', serif;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 7rem;
-    margin: -10rem auto 0 6rem;
-    letter-spacing: 100px;
+    margin: -4rem -50rem 0 10rem;
+    letter-spacing: 30px;
     z-index: -.1;
     color: white;
 }
@@ -163,3 +163,45 @@ aside, .mirror {
     margin-left: -50rem;
 }
 /* end main */
+
+/* container-content */
+.container-content {
+    width: 100%;
+    height: 300px;
+    background-color: silver;
+    margin-top: 8rem;
+    
+}
+/* .container-content, .content {
+    align-items: center;
+} */
+.content {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    margin: auto 1rem 15px 15.5rem;
+}
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: aqua;
+}
+
+.three {
+    background-color: aqua;
+    height: 15px;
+
+}
+
+.four {
+    background-color: aqua;
+    height: 15px;
+
+}
+
+/* end container-content */
